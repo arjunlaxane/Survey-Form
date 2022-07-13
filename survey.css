@@ -1,0 +1,10 @@
+.checked {
+  background-color: orange;
+  width: 20px;
+  /* height: 1px; */
+}
+.asterisk {
+  background-color: red;
+  height: 12px;
+  margin-left: 6px;
+}

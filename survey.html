@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="survey.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <form action="" class="form-container">
+      <p>Name</p>
+      <input type="text" id="name" />
+      <label for="name">First</label>
+      <input type="text" id="last" />
+      <label for="name">Last</label>
+
+      <h3>Your Experience<i class="fa-thin fa-asterisk asterisk"></i></h3>
+      <!-- <i class="fa-regular fa-star checked"></i> -->
+      <!-- <i class="fa-regular fa-star checked"></i> -->
+      <!-- <i class="fa-regular fa-star checked"></i> -->
+      <!-- <i class="fa-regular fa-star checked"></i> -->
+      <!-- <i class="fa-regular fa-star checked"></i> -->
+      <!-- another way -->
+      <span>⭐⭐⭐⭐⭐</span>
+      <p>Overall, how would you rate your experience with us?</p>
+
+      <h2>
+        How satisfied are you with<i class="fa-thin fa-asterisk asterisk"></i>
+      </h2>
+
+      <table>
+        <thead>
+          <th></th>
+
+          <th>Very Unsatisfied</th>
+
+          <th>Unsatisfied</th>
+
+          <th>Neutral</th>
+
+          <th>Satisfied</th>
+
+          <th>Very Satisfied</th>
+        </thead>
+
+        <tr>
+          <td>Purchase</td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+        </tr>
+
+        <tr>
+          <td>Service</td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+        </tr>
+
+        <tr>
+          <td>Company Overall</td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+        </tr>
+      </table>
+
+      <h2>How likely are you to<i class="fa-thin fa-asterisk asterisk"></i></h2>
+
+      <table>
+        <thead>
+          <th></th>
+
+          <th>Very Unlikely</th>
+
+          <th>Unlikely</th>
+
+          <th>Neutral</th>
+
+          <th>Likely</th>
+
+          <th>Very Likely</th>
+        </thead>
+
+        <tr>
+          <td>Buy from us again</td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+        </tr>
+
+        <tr>
+          <td>Recommend our product to others</td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+        </tr>
+
+        <tr>
+          <td>Recommend our company to others</td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+          <td><input type="radio" /></td>
+        </tr>
+      </table>
+
+      <h2>Additional comments or suggestions</h2>
+      <textarea name="comment" id="comment" cols="175" rows="10"></textarea>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
